@@ -7,19 +7,19 @@ global.DOMParser = DOMParser;
 // twitter api configuration, target configuration etc. configurations
 var config = (function(){
 
-	var apiKey 						= 'your-api-key',									// api key
-		apiKeySecret 				= 'your-api-key-secret',					// api key secret
-		accessToken 				= 'your-api-key-token',						// access token
-		accessTokenSecret 	= 'your-api-key-token-secret',		// access token secret
-		targetBlog 					= 'http://your-blog.com';					// address of your blog
+	var apiKey 					= 'your-api-key',					// api key
+		apiKeySecret 				= 'your-api-key-secret',				// api key secret
+		accessToken 				= 'your-api-key-token',				// access token
+		accessTokenSecret 			= 'your-api-key-token-secret',		// access token secret
+		targetBlog 				= 'http://your-blog.com';			// address of your blog
 
 	return {
-		apiKey 							: apiKey,
+		apiKey 					: apiKey,
 		apiKeySecret 				: apiKeySecret,
 		accessToken 				: accessToken,
-		accessTokenSecret 	: accessTokenSecret,
-		targetBlog 					: targetBlog,
-		posts 							: [],
+		accessTokenSecret 			: accessTokenSecret,
+		targetBlog 				: targetBlog,
+		posts 					: [],
 		backInterval 				: null
 	}
 })();
